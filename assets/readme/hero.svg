@@ -31,8 +31,8 @@
   <path d="M82 312C211 235 274 239 386 274C492 307 573 348 709 287C812 240 868 171 1116 182" stroke="#9DCCFF" stroke-opacity="0.32" stroke-width="2"/>
   <path d="M92 339C250 267 339 286 450 316C551 343 657 372 760 321C878 263 970 144 1124 136" stroke="#7EE0D5" stroke-opacity="0.38" stroke-width="2"/>
 
-  <rect x="82" y="72" width="284" height="30" rx="15" fill="#0B182A" stroke="#6FA7FF" stroke-opacity="0.42"/>
-  <text x="104" y="92" fill="#D9ECFF" font-size="13" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" letter-spacing="1.8">PROFILE README / FULL STACK SIGNAL</text>
+  <rect x="82" y="72" width="320" height="30" rx="15" fill="#0B182A" stroke="#6FA7FF" stroke-opacity="0.42"/>
+  <text x="104" y="92" fill="#D9ECFF" font-size="12" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" letter-spacing="1.6">PROFILE README / FULL STACK SIGNAL</text>
 
   <text x="82" y="168" fill="url(#accent)" font-size="76" font-weight="700" font-family="Georgia, 'Times New Roman', serif">kerojohan</text>
   <text x="82" y="210" fill="#E6F0FF" font-size="24" font-family="'Trebuchet MS', Helvetica, sans-serif">full stack developer building across web,</text>

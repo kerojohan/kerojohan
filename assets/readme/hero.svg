@@ -1,0 +1,71 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="84" y1="36" x2="1082" y2="402" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/>
+      <stop offset="0.5" stop-color="#102540"/>
+      <stop offset="1" stop-color="#08131C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="175" y1="87" x2="1013" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8D25C"/>
+      <stop offset="0.45" stop-color="#7EE0D5"/>
+      <stop offset="1" stop-color="#6FA7FF"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="149" y1="102" x2="1076" y2="357" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8D25C" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#79E0D4" stop-opacity="0.35"/>
+    </linearGradient>
+    <filter id="blur" x="-120" y="-120" width="1440" height="660" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="36"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect x="16" y="16" width="1168" height="388" rx="20" stroke="url(#stroke)" stroke-opacity="0.4"/>
+
+  <g opacity="0.75" filter="url(#blur)">
+    <circle cx="961" cy="77" r="74" fill="#F8D25C"/>
+    <circle cx="1021" cy="217" r="108" fill="#47B7D8"/>
+    <circle cx="239" cy="311" r="112" fill="#214D7A"/>
+  </g>
+
+  <path d="M82 312C211 235 274 239 386 274C492 307 573 348 709 287C812 240 868 171 1116 182" stroke="#9DCCFF" stroke-opacity="0.32" stroke-width="2"/>
+  <path d="M92 339C250 267 339 286 450 316C551 343 657 372 760 321C878 263 970 144 1124 136" stroke="#7EE0D5" stroke-opacity="0.38" stroke-width="2"/>
+
+  <rect x="82" y="72" width="284" height="30" rx="15" fill="#0B182A" stroke="#6FA7FF" stroke-opacity="0.42"/>
+  <text x="104" y="92" fill="#D9ECFF" font-size="13" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" letter-spacing="1.8">PROFILE README / FULL STACK SIGNAL</text>
+
+  <text x="82" y="168" fill="url(#accent)" font-size="76" font-weight="700" font-family="Georgia, 'Times New Roman', serif">kerojohan</text>
+  <text x="82" y="214" fill="#E6F0FF" font-size="29" font-family="'Trebuchet MS', Helvetica, sans-serif">full stack developer building across web, systems and devices</text>
+
+  <text x="84" y="277" fill="#A8C1D9" font-size="18" font-family="'Trebuchet MS', Helvetica, sans-serif">typescript / python / c++ / linux / automation / embedded / web</text>
+
+  <g>
+    <rect x="82" y="312" width="160" height="44" rx="22" fill="#F8D25C"/>
+    <text x="112" y="339" fill="#07111B" font-size="15" font-weight="700" font-family="'Trebuchet MS', Helvetica, sans-serif">FULL STACK</text>
+  </g>
+  <g>
+    <rect x="256" y="312" width="203" height="44" rx="22" fill="#102540" stroke="#7EE0D5" stroke-opacity="0.6"/>
+    <text x="287" y="339" fill="#DDFBF6" font-size="15" font-weight="700" font-family="'Trebuchet MS', Helvetica, sans-serif">SYSTEMS + AUTOMATION</text>
+  </g>
+
+  <g opacity="0.96">
+    <rect x="764" y="70" width="340" height="232" rx="20" fill="#0B1727" fill-opacity="0.88" stroke="#79E0D4" stroke-opacity="0.28"/>
+    <rect x="785" y="94" width="120" height="18" rx="9" fill="#132338"/>
+    <circle cx="799" cy="103" r="4" fill="#F86E6E"/>
+    <circle cx="815" cy="103" r="4" fill="#F8D25C"/>
+    <circle cx="831" cy="103" r="4" fill="#7EE0D5"/>
+    <text x="785" y="145" fill="#7EE0D5" font-size="18" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">$ stack</text>
+    <text x="785" y="175" fill="#E8F1FF" font-size="18" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">ts / python / c++ / sql / linux</text>
+    <text x="785" y="214" fill="#6FA7FF" font-size="18" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">$ build</text>
+    <text x="785" y="244" fill="#E8F1FF" font-size="18" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">apps, tools, automations, devices</text>
+    <text x="785" y="282" fill="#F8D25C" font-size="18" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">$ mode</text>
+    <text x="785" y="312" fill="#E8F1FF" font-size="18" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">ship useful things</text>
+  </g>
+
+  <g opacity="0.6">
+    <circle cx="676" cy="90" r="3" fill="#F8D25C"/>
+    <circle cx="722" cy="118" r="2.4" fill="#7EE0D5"/>
+    <circle cx="695" cy="150" r="2.4" fill="#A8C1D9"/>
+    <path d="M676 90L722 118L695 150" stroke="#D8EEFF" stroke-opacity="0.45"/>
+  </g>
+</svg>

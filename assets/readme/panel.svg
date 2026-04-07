@@ -1,0 +1,52 @@
+<svg width="860" height="320" viewBox="0 0 860 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panelBg" x1="33" y1="20" x2="821" y2="306" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#091320"/>
+      <stop offset="1" stop-color="#102238"/>
+    </linearGradient>
+    <linearGradient id="line" x1="87" y1="55" x2="692" y2="246" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8D25C"/>
+      <stop offset="0.55" stop-color="#7EE0D5"/>
+      <stop offset="1" stop-color="#6FA7FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="320" rx="24" fill="url(#panelBg)"/>
+  <rect x="14" y="14" width="832" height="292" rx="16" stroke="#8AB9FF" stroke-opacity="0.24"/>
+  <text x="54" y="66" fill="#F6D76C" font-size="15" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">/stack.json</text>
+  <text x="54" y="112" fill="#E7F0FF" font-size="35" font-family="Georgia, 'Times New Roman', serif">Full stack projects across software and hardware.</text>
+  <text x="54" y="152" fill="#A8C1D9" font-size="18" font-family="'Trebuchet MS', Helvetica, sans-serif">Web, backend, automation and embedded systems.</text>
+
+  <g opacity="0.92">
+    <rect x="54" y="194" width="118" height="38" rx="19" fill="#13253D"/>
+    <text x="78" y="218" fill="#DFFAF5" font-size="16" font-family="'Trebuchet MS', Helvetica, sans-serif">frontend</text>
+
+    <rect x="184" y="194" width="118" height="38" rx="19" fill="#13253D"/>
+    <text x="206" y="218" fill="#DFFAF5" font-size="16" font-family="'Trebuchet MS', Helvetica, sans-serif">backend</text>
+
+    <rect x="314" y="194" width="118" height="38" rx="19" fill="#13253D"/>
+    <text x="335" y="218" fill="#DFFAF5" font-size="16" font-family="'Trebuchet MS', Helvetica, sans-serif">python</text>
+
+    <rect x="444" y="194" width="118" height="38" rx="19" fill="#13253D"/>
+    <text x="482" y="218" fill="#DFFAF5" font-size="16" font-family="'Trebuchet MS', Helvetica, sans-serif">c++</text>
+
+    <rect x="574" y="194" width="162" height="38" rx="19" fill="#13253D"/>
+    <text x="608" y="218" fill="#DFFAF5" font-size="16" font-family="'Trebuchet MS', Helvetica, sans-serif">embedded</text>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M595 87H775" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="607" cy="87" r="7" fill="#F8D25C"/>
+    <circle cx="669" cy="87" r="7" fill="#7EE0D5"/>
+    <circle cx="731" cy="87" r="7" fill="#6FA7FF"/>
+
+    <text x="594" y="144" fill="#A8C1D9" font-size="14" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">01</text>
+    <text x="626" y="144" fill="#E7F0FF" font-size="18" font-family="'Trebuchet MS', Helvetica, sans-serif">interfaces that stay fast and clear</text>
+
+    <text x="594" y="182" fill="#A8C1D9" font-size="14" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">02</text>
+    <text x="626" y="182" fill="#E7F0FF" font-size="18" font-family="'Trebuchet MS', Helvetica, sans-serif">services, APIs and automation flows</text>
+
+    <text x="594" y="220" fill="#A8C1D9" font-size="14" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">03</text>
+    <text x="626" y="220" fill="#E7F0FF" font-size="18" font-family="'Trebuchet MS', Helvetica, sans-serif">hardware and telemetry side projects</text>
+  </g>
+</svg>

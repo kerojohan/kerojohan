@@ -29,7 +29,7 @@
     <rect x="620" y="190" width="510" height="82" rx="18" fill="#101E33" stroke="#7EE0D5" stroke-opacity="0.28"/>
     <text x="646" y="222" fill="#7EE0D5" font-size="14" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">Python</text>
     <text x="646" y="249" fill="#E8F1FF" font-size="24" font-family="'Trebuchet MS', Helvetica, sans-serif">bat_tracker</text>
-    <text x="646" y="273" fill="#A8C1D9" font-size="15" font-family="'Trebuchet MS', Helvetica, sans-serif">tracking and data-oriented utilities</text>
+    <text x="646" y="273" fill="#A8C1D9" font-size="14" font-family="'Trebuchet MS', Helvetica, sans-serif">tracking and data-oriented utilities</text>
   </g>
 
   <g>
@@ -43,6 +43,6 @@
     <rect x="620" y="296" width="510" height="82" rx="18" fill="#101E33" stroke="#9FC4FF" stroke-opacity="0.28"/>
     <text x="646" y="328" fill="#9FC4FF" font-size="14" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">C++ / ESP32</text>
     <text x="646" y="355" fill="#E8F1FF" font-size="24" font-family="'Trebuchet MS', Helvetica, sans-serif">ESP32-fake-sensors-garmin</text>
-    <text x="646" y="379" fill="#A8C1D9" font-size="15" font-family="'Trebuchet MS', Helvetica, sans-serif">embedded telemetry and sensor simulation</text>
+    <text x="646" y="379" fill="#A8C1D9" font-size="14" font-family="'Trebuchet MS', Helvetica, sans-serif">embedded telemetry and sensor simulation</text>
   </g>
 </svg>

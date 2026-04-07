@@ -41,12 +41,12 @@
     <circle cx="731" cy="87" r="7" fill="#6FA7FF"/>
 
     <text x="594" y="144" fill="#A8C1D9" font-size="14" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">01</text>
-    <text x="626" y="144" fill="#E7F0FF" font-size="18" font-family="'Trebuchet MS', Helvetica, sans-serif">interfaces that stay fast and clear</text>
+    <text x="626" y="144" fill="#E7F0FF" font-size="16" font-family="'Trebuchet MS', Helvetica, sans-serif">interfaces that stay fast and clear</text>
 
     <text x="594" y="182" fill="#A8C1D9" font-size="14" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">02</text>
-    <text x="626" y="182" fill="#E7F0FF" font-size="18" font-family="'Trebuchet MS', Helvetica, sans-serif">services, APIs and automation flows</text>
+    <text x="626" y="182" fill="#E7F0FF" font-size="16" font-family="'Trebuchet MS', Helvetica, sans-serif">services, APIs and automation flows</text>
 
     <text x="594" y="220" fill="#A8C1D9" font-size="14" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">03</text>
-    <text x="626" y="220" fill="#E7F0FF" font-size="18" font-family="'Trebuchet MS', Helvetica, sans-serif">hardware and telemetry side projects</text>
+    <text x="626" y="220" fill="#E7F0FF" font-size="16" font-family="'Trebuchet MS', Helvetica, sans-serif">hardware and telemetry side projects</text>
   </g>
 </svg>

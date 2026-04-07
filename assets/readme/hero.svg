@@ -50,17 +50,18 @@
   </g>
 
   <g opacity="0.96">
-    <rect x="764" y="70" width="340" height="232" rx="20" fill="#0B1727" fill-opacity="0.88" stroke="#79E0D4" stroke-opacity="0.28"/>
+    <rect x="752" y="70" width="352" height="246" rx="20" fill="#0B1727" fill-opacity="0.88" stroke="#79E0D4" stroke-opacity="0.28"/>
     <rect x="785" y="94" width="120" height="18" rx="9" fill="#132338"/>
     <circle cx="799" cy="103" r="4" fill="#F86E6E"/>
     <circle cx="815" cy="103" r="4" fill="#F8D25C"/>
     <circle cx="831" cy="103" r="4" fill="#7EE0D5"/>
     <text x="785" y="145" fill="#7EE0D5" font-size="18" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">$ stack</text>
-    <text x="785" y="175" fill="#E8F1FF" font-size="18" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">ts / python / c++ / sql / linux</text>
+    <text x="785" y="174" fill="#E8F1FF" font-size="17" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">ts / python / c++ / sql / linux</text>
     <text x="785" y="214" fill="#6FA7FF" font-size="18" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">$ build</text>
-    <text x="785" y="244" fill="#E8F1FF" font-size="18" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">apps, tools, automations, devices</text>
-    <text x="785" y="282" fill="#F8D25C" font-size="18" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">$ mode</text>
-    <text x="785" y="312" fill="#E8F1FF" font-size="18" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">ship useful things</text>
+    <text x="785" y="243" fill="#E8F1FF" font-size="17" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">apps, tools, automations,</text>
+    <text x="785" y="268" fill="#E8F1FF" font-size="17" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">devices</text>
+    <text x="785" y="297" fill="#F8D25C" font-size="18" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">$ mode</text>
+    <text x="785" y="322" fill="#E8F1FF" font-size="17" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">ship useful things</text>
   </g>
 
   <g opacity="0.6">

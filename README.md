@@ -14,9 +14,3 @@
 <p align="center">
   typescript, python, linux, automation, embedded
 </p>
-
-## Featured Repos
-
-<p align="center">
-  <img src="./assets/readme/projects.svg" alt="selected repositories" width="100%" />
-</p>

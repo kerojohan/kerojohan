@@ -35,17 +35,18 @@
   <text x="104" y="92" fill="#D9ECFF" font-size="13" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" letter-spacing="1.8">PROFILE README / FULL STACK SIGNAL</text>
 
   <text x="82" y="168" fill="url(#accent)" font-size="76" font-weight="700" font-family="Georgia, 'Times New Roman', serif">kerojohan</text>
-  <text x="82" y="214" fill="#E6F0FF" font-size="29" font-family="'Trebuchet MS', Helvetica, sans-serif">full stack developer building across web, systems and devices</text>
+  <text x="82" y="210" fill="#E6F0FF" font-size="24" font-family="'Trebuchet MS', Helvetica, sans-serif">full stack developer building across web,</text>
+  <text x="82" y="242" fill="#E6F0FF" font-size="24" font-family="'Trebuchet MS', Helvetica, sans-serif">systems, automation and devices</text>
 
-  <text x="84" y="277" fill="#A8C1D9" font-size="18" font-family="'Trebuchet MS', Helvetica, sans-serif">typescript / python / c++ / linux / automation / embedded / web</text>
+  <text x="84" y="288" fill="#A8C1D9" font-size="18" font-family="'Trebuchet MS', Helvetica, sans-serif">typescript / python / c++ / linux / automation / embedded / web</text>
 
   <g>
-    <rect x="82" y="312" width="160" height="44" rx="22" fill="#F8D25C"/>
-    <text x="112" y="339" fill="#07111B" font-size="15" font-weight="700" font-family="'Trebuchet MS', Helvetica, sans-serif">FULL STACK</text>
+    <rect x="82" y="322" width="160" height="44" rx="22" fill="#F8D25C"/>
+    <text x="112" y="349" fill="#07111B" font-size="15" font-weight="700" font-family="'Trebuchet MS', Helvetica, sans-serif">FULL STACK</text>
   </g>
   <g>
-    <rect x="256" y="312" width="203" height="44" rx="22" fill="#102540" stroke="#7EE0D5" stroke-opacity="0.6"/>
-    <text x="287" y="339" fill="#DDFBF6" font-size="15" font-weight="700" font-family="'Trebuchet MS', Helvetica, sans-serif">SYSTEMS + AUTOMATION</text>
+    <rect x="256" y="322" width="203" height="44" rx="22" fill="#102540" stroke="#7EE0D5" stroke-opacity="0.6"/>
+    <text x="287" y="349" fill="#DDFBF6" font-size="15" font-weight="700" font-family="'Trebuchet MS', Helvetica, sans-serif">SYSTEMS + AUTOMATION</text>
   </g>
 
   <g opacity="0.96">

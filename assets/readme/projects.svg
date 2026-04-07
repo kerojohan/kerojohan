@@ -1,0 +1,48 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="24" x2="1160" y2="396" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#091320"/>
+      <stop offset="1" stop-color="#112743"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="112" y1="79" x2="1088" y2="356" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8D25C" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#7EE0D5" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#6FA7FF" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+  <rect x="16" y="16" width="1168" height="388" rx="18" stroke="url(#stroke)" stroke-opacity="0.35"/>
+
+  <text x="70" y="68" fill="#F8D25C" font-size="15" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">/featured</text>
+  <text x="70" y="116" fill="#E8F1FF" font-size="36" font-family="Georgia, 'Times New Roman', serif">Selected repositories</text>
+  <text x="70" y="152" fill="#A8C1D9" font-size="18" font-family="'Trebuchet MS', Helvetica, sans-serif">software, tooling and embedded experiments</text>
+
+  <g>
+    <rect x="70" y="190" width="510" height="82" rx="18" fill="#101E33" stroke="#F8D25C" stroke-opacity="0.28"/>
+    <text x="96" y="222" fill="#F8D25C" font-size="14" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">TypeScript</text>
+    <text x="96" y="249" fill="#E8F1FF" font-size="24" font-family="'Trebuchet MS', Helvetica, sans-serif">SpectroViewer</text>
+    <text x="96" y="273" fill="#A8C1D9" font-size="15" font-family="'Trebuchet MS', Helvetica, sans-serif">viewer and interface tooling</text>
+  </g>
+
+  <g>
+    <rect x="620" y="190" width="510" height="82" rx="18" fill="#101E33" stroke="#7EE0D5" stroke-opacity="0.28"/>
+    <text x="646" y="222" fill="#7EE0D5" font-size="14" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">Python</text>
+    <text x="646" y="249" fill="#E8F1FF" font-size="24" font-family="'Trebuchet MS', Helvetica, sans-serif">bat_tracker</text>
+    <text x="646" y="273" fill="#A8C1D9" font-size="15" font-family="'Trebuchet MS', Helvetica, sans-serif">tracking and data-oriented utilities</text>
+  </g>
+
+  <g>
+    <rect x="70" y="296" width="510" height="82" rx="18" fill="#101E33" stroke="#6FA7FF" stroke-opacity="0.28"/>
+    <text x="96" y="328" fill="#6FA7FF" font-size="14" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">Python</text>
+    <text x="96" y="355" fill="#E8F1FF" font-size="24" font-family="'Trebuchet MS', Helvetica, sans-serif">THN132N-emulator</text>
+    <text x="96" y="379" fill="#A8C1D9" font-size="15" font-family="'Trebuchet MS', Helvetica, sans-serif">device emulation and protocol work</text>
+  </g>
+
+  <g>
+    <rect x="620" y="296" width="510" height="82" rx="18" fill="#101E33" stroke="#9FC4FF" stroke-opacity="0.28"/>
+    <text x="646" y="328" fill="#9FC4FF" font-size="14" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">C++ / ESP32</text>
+    <text x="646" y="355" fill="#E8F1FF" font-size="24" font-family="'Trebuchet MS', Helvetica, sans-serif">ESP32-fake-sensors-garmin</text>
+    <text x="646" y="379" fill="#A8C1D9" font-size="15" font-family="'Trebuchet MS', Helvetica, sans-serif">embedded telemetry and sensor simulation</text>
+  </g>
+</svg>

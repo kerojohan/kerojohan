@@ -31,10 +31,8 @@
   <path d="M82 312C211 235 274 239 386 274C492 307 573 348 709 287C812 240 868 171 1116 182" stroke="#9DCCFF" stroke-opacity="0.32" stroke-width="2"/>
   <path d="M92 339C250 267 339 286 450 316C551 343 657 372 760 321C878 263 970 144 1124 136" stroke="#7EE0D5" stroke-opacity="0.38" stroke-width="2"/>
 
-  <rect x="82" y="72" width="252" height="30" rx="15" fill="#0B182A" stroke="#6FA7FF" stroke-opacity="0.42"/>
-  <text x="104" y="92" fill="#D9ECFF" font-size="12" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" letter-spacing="1.6">FULL STACK / SYSTEMS</text>
 
-  <text x="82" y="168" fill="url(#accent)" font-size="76" font-weight="700" font-family="Georgia, 'Times New Roman', serif">kerojohan</text>
+  <text x="82" y="128" fill="url(#accent)" font-size="76" font-weight="700" font-family="Georgia, 'Times New Roman', serif">kerojohan</text>
   <text x="82" y="210" fill="#E6F0FF" font-size="24" font-family="'Trebuchet MS', Helvetica, sans-serif">full stack developer building across web,</text>
   <text x="82" y="242" fill="#E6F0FF" font-size="24" font-family="'Trebuchet MS', Helvetica, sans-serif">systems, automation and devices</text>
 
@@ -50,8 +48,8 @@
   </g>
 
   <g opacity="0.96">
-    <rect x="716" y="70" width="388" height="246" rx="20" fill="#0B1727" fill-opacity="0.88" stroke="#79E0D4" stroke-opacity="0.28"/>
-    <rect x="785" y="94" width="120" height="18" rx="9" fill="#132338"/>
+    <rect x="736" y="80" width="420" height="246" rx="20" fill="#0B1727" fill-opacity="0.88" stroke="#79E0D4" stroke-opacity="0.28"/>
+    <rect x="885" y="94" width="120" height="18" rx="9" fill="#132338"/>
     <circle cx="799" cy="103" r="4" fill="#F86E6E"/>
     <circle cx="815" cy="103" r="4" fill="#F8D25C"/>
     <circle cx="831" cy="103" r="4" fill="#7EE0D5"/>

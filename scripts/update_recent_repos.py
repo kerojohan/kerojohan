@@ -4,36 +4,45 @@ import os
 import urllib.request
 from pathlib import Path
 
-START = "<!-- RECENT-REPOS:START -->"
-END = "<!-- RECENT-REPOS:END -->"
-LIMIT = 6
+START = "<!-- PROMOTED-REPOS:START -->"
+END = "<!-- PROMOTED-REPOS:END -->"
+TOPIC = "promoted"
 
 
 def fetch_repositories(owner: str) -> list[dict]:
-    request = urllib.request.Request(
-        f"https://api.github.com/users/{owner}/repos?per_page=100&sort=updated",
-        headers={
-            "Accept": "application/vnd.github+json",
-            "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
-            "User-Agent": "profile-readme-updater",
-            "X-GitHub-Api-Version": "2022-11-28",
-        },
-    )
-    with urllib.request.urlopen(request) as response:
-        return json.load(response)
+    repositories = []
+    page = 1
+    while True:
+        request = urllib.request.Request(
+            f"https://api.github.com/users/{owner}/repos?per_page=100&page={page}",
+            headers={
+                "Accept": "application/vnd.github+json",
+                "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
+                "User-Agent": "profile-readme-updater",
+                "X-GitHub-Api-Version": "2022-11-28",
+            },
+        )
+        with urllib.request.urlopen(request) as response:
+            batch = json.load(response)
+        repositories.extend(batch)
+        if len(batch) < 100:
+            return repositories
+        page += 1
 
 
 def render(repositories: list[dict], profile_repository: str) -> str:
-    visible = [
-        repository
-        for repository in repositories
-        if not repository["fork"]
-        and not repository["archived"]
-        and repository["name"] != profile_repository
-    ][:LIMIT]
+    visible = sorted(
+        [
+            repository
+            for repository in repositories
+            if TOPIC in repository["topics"]
+            and repository["name"] != profile_repository
+        ],
+        key=lambda repository: repository["name"].lower(),
+    )
 
     if not visible:
-        return "_No hay proyectos públicos disponibles._"
+        return f"_No hay proyectos públicos con el topic `{TOPIC}`._"
 
     rows = []
     for repository in visible:
@@ -57,7 +66,7 @@ def main() -> None:
     readme = Path("README.md")
     content = readme.read_text(encoding="utf-8")
     if START not in content or END not in content:
-        raise RuntimeError("No se encontraron los marcadores de proyectos recientes en README.md")
+        raise RuntimeError("No se encontraron los marcadores de proyectos destacados en README.md")
 
     generated = render(fetch_repositories(owner), profile_repository)
     before, remainder = content.split(START, 1)

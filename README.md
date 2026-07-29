@@ -17,7 +17,7 @@
 
 ## Proyectos destacados
 
-Esta lista se actualiza automáticamente cada día con todos mis repositorios públicos que tengan el topic `promoted`.
+Esta lista se actualiza automáticamente cada 30 minutos con todos mis repositorios públicos que tengan el topic `promoted`.
 
 <!-- PROMOTED-REPOS:START -->
 | Proyecto | Descripción | Tecnología |

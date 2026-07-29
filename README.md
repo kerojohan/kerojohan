@@ -17,7 +17,7 @@
 
 ## Proyectos destacados
 
-Esta lista se actualiza automáticamente cada 30 minutos con todos mis repositorios públicos que tengan el topic `promoted`.
+Esta lista se actualiza automáticamente cada semana con todos mis repositorios públicos que tengan el topic `promoted`. También puede actualizarse manualmente desde GitHub Actions.
 
 <!-- PROMOTED-REPOS:START -->
 | Proyecto | Descripción | Tecnología |
